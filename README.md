@@ -6,17 +6,11 @@ This is a work in progress! Follow my progress below:
 
 ## Description
 
-- [ ] GIVEN a functional Express.js API
-- [x] WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-- [x] THEN I am able to connect to a database using Sequelize
-- [x] WHEN I enter schema and seed commands
-- [x] THEN a development database is created and is seeded with test data
-- [x] WHEN I enter the command to invoke the application
-- [x] THEN my server is started and the Sequelize models arexsynced to the MySQL database
-- [x] WHEN I open API GET routes in Insomnia Core for categories, products, or tags
-- [x] THEN the data for each of these routes is displayed in a formatted JSON
-- [ ] WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
-- [ ] THEN I am able to successfully create, update, and delete data in my database
+This work was an exercise in creating API routes as part of the backend of an e-commerce application. Sequelize is a tool for Object Relational Mapping (ORM). It enables developers to easily work with RDMS like MySQL in the Node server environment.
+
+Additionally, we used the concept of async/await to write the code
+
+There is no frontend portion for this so all API endpoint testing was was done in [Insomnia](https://insomnia.rest/).
 
 ## Installation
 
