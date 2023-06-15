@@ -2,8 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is a work in progress! Follow my progress below:
-
 ## Description
 
 This work was an exercise in creating API routes as part of the backend of an e-commerce application. Sequelize is a tool for Object Relational Mapping (ORM). It enables developers to easily work with RDMS like MySQL in the Node server environment. Additionally, we used the concept of async/await to rewrite Promise-based code.
@@ -39,9 +37,7 @@ Type the following in your terminal to run the application:
 
 In the MySQL shell, we type in `source db/schema.sql` to create the database. We exit the MySQL shell and return to the terminal where we type in `node seeds` to execute the seed scripts. We start up the server with `nodemon server` and begin testing our endpoints in Insomnia Core. The following video tests all of the routes. The video can also be found [here](https://drive.google.com/file/d/1EGcb2aaYXUMnJ7uwpHqZJeSPnUqgZAFw/view?usp=sharing).
 
-
 https://github.com/myrojoylee/e-commerce-mock-backend/assets/120980593/0707abb9-0107-4343-8299-06b380214ced
-
 
 ## License
 
