@@ -33,6 +33,10 @@ Type the following in your terminal to run the application:
 
 - [dotenv](https://www.npmjs.com/package/dotenv) is needed to handle environmental variables that hold sensitive data.
 
+### Optional, but recommended:
+
+- [Nodemon](https://nodemon.io/) to enable automatic restarting of your server upon any detected changes.
+
 ## Usage
 
 In the MySQL shell, we run the schema file to create the database. We exit the MySQL shell and return to the terminal where we type in `node seeds` to execute the seed scripts. We start up the server with `nodemon server` and begin testing our endpoints in Insomnia Core. The following video tests all of the routes. The video can also be found [here](https://drive.google.com/file/d/1PbNuc9WaY8I9nd9N2yDRLAWCANcOKZZR/view?usp=sharing).
